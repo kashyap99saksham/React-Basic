@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!--ADDING REACT CDN LINK  -->
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <!-- ADDING BABEL -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
     <title>Document</title>
 </head>
 <body>
     <div id="root"></div>
     <div id="root2"></div>
+    <div id="root3"></div>
 
     <script>
+        // WITHOUT USE OF BABEL
         class App extends React.Component
         {
             render()
@@ -32,6 +38,23 @@
         }
         ReactDOM.render( React.createElement(App2,null), document.getElementById("root2") );
 
+    </script>
+    <!-- Now we are using babel and jsx(similar to html) -->
+    <script type="text/babel">
+        class App3 extends React.Component
+        {
+            render()
+            {
+                return(
+                    <div>
+                        <h1>
+                            I m text and created in jsx lang. and which is converted by babel
+                        </h1>
+                    </div>
+                );
+            }
+        }
+        ReactDOM.render(<App3 />,document.getElementById("root3"));
     </script>
 </body>
 </html>
