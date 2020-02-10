@@ -28,12 +28,12 @@ import React, {Component} from "react"
 // export default App;
     
 // Use of Props in class component
-class App extends Component{   
-        render() {
-        return  <h1>I m ele. inside the compont in app.js and use props value : {this.props.name}</h1>;        
-        }
-    }
-export default App;
+// class App extends Component{   
+//         render() {
+//         return  <h1>I m ele. inside the compont in app.js and use props value : {this.props.name}</h1>;        
+//         }
+//     }
+// export default App;
     
 
 
@@ -56,3 +56,7 @@ export default App;
 //     return <h1> I m text inside the arrow function component and using props : {props.name}</h1>
 // }
 // export default Student; 
+
+
+
+

@@ -23,5 +23,11 @@ import Student from "./App"
 // ReactDOM.render(<Student />,document.getElementById("root"));
 
 // USE PROPS
-ReactDOM.render(<Student name = "saksham" />,document.getElementById("root"));
+// ReactDOM.render(<Student name = "saksham" />,document.getElementById("root"));
+
+
+
+// USE OF COMPOSING COMPONENT [MAIN FUNCTIONALITY OF REACT]
+import Mainfun from "./composing_comp2"
+ReactDOM.render(<Mainfun /> , document.getElementById("root"))
 
