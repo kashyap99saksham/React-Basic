@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import el from "./App"
 import App from "./App"
+import Student from "./App"
 
 // USING JSX
 // let myele = <h1> Hello </h1>   
@@ -16,5 +17,11 @@ import App from "./App"
 // ReactDOM.render(el ,document.getElementById("root"));
 
 // USing App.js file component : Importing App.js component in this 
-ReactDOM.render(<App />,document.getElementById("root"));
+// ReactDOM.render(<App />,document.getElementById("root"));
+
+// Using App.js file function : Importing function element
+// ReactDOM.render(<Student />,document.getElementById("root"));
+
+// USE PROPS
+ReactDOM.render(<Student name = "saksham" />,document.getElementById("root"));
 
