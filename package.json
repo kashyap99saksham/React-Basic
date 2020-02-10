@@ -1,0 +1,19 @@
+{
+  "name": "react-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashyap99saksham/React-Basic.git"
+  },
+  "author": "saksham kashyap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kashyap99saksham/React-Basic/issues"
+  },
+  "homepage": "https://github.com/kashyap99saksham/React-Basic#readme"
+}
