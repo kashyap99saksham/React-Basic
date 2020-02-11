@@ -33,8 +33,13 @@ import Student from "./App"
 
 
 // USE OF PROP-TYPES
-import App_prop from "./prop-types"
-ReactDOM.render(
-    <App_prop name = "saksham" rollno = {1000} />,
-    document.getElementById("root")
-    );
+// import App_prop from "./prop-types"
+// ReactDOM.render(
+//     <App_prop name = "saksham" rollno = {1000} />,
+//     document.getElementById("root")
+//     );
+
+
+//USE OF PROPS CHILDREN 
+import Myfun from "./props_children"
+ReactDOM.render(<Myfun> Props child </Myfun> , document.getElementById("root"));
