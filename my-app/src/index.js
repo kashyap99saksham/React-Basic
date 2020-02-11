@@ -41,5 +41,10 @@ import Student from "./App"
 
 
 //USE OF PROPS CHILDREN 
-import Myfun from "./props_children"
-ReactDOM.render(<Myfun> Props child </Myfun> , document.getElementById("root"));
+// import Myfun from "./props_children"
+// ReactDOM.render(<Myfun> Props child </Myfun> , document.getElementById("root"));
+
+
+// USE OF STATE
+import Myfun from "./state"
+ReactDOM.render(<Myfun roll = "100"/> ,document.getElementById("root"));
