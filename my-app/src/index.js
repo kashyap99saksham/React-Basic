@@ -66,5 +66,10 @@ import Student from "./App"
 // ReactDOM.render(<Myclass />,document.getElementById("root"));
 
 // USING MOUNTING
-import Myclass from "./mouting"
-ReactDOM.render(<Myclass id="100" />,document.getElementById("root"));
+// import Myclass from "./mouting"
+// ReactDOM.render(<Myclass id="100" />,document.getElementById("root"));
+
+// USE OF UNMOUNTING
+import Myclass from "./Unmounting"
+ReactDOM.render(<Myclass />,document.getElementById("root"));       //it print comp mounted success  
+ReactDOM.unmountComponentAtNode(document.getElementById("root"));      //it print comp  unmounted success
