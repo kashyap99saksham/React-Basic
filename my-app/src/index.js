@@ -62,5 +62,9 @@ import Student from "./App"
 // ReactDOM.render(<Myclass name = "saksham" roll="100"/>,document.getElementById("root"))
 
 // PASSING ARGUMENT TO EVENT HANDLER
-import Myclass from "./passing_argument_event_handler"
-ReactDOM.render(<Myclass />,document.getElementById("root"));
+// import Myclass from "./passing_argument_event_handler"
+// ReactDOM.render(<Myclass />,document.getElementById("root"));
+
+// USING MOUNTING
+import Myclass from "./mouting"
+ReactDOM.render(<Myclass id="100" />,document.getElementById("root"));
