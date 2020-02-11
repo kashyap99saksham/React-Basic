@@ -81,5 +81,9 @@ import Student from "./App"
 // ReactDOM.render(<Myfun />,document.getElementById("root"))
 
 // useEffect function
-import Myfun from "./useEffect_hooks"
-ReactDOM.render(<Myfun />,document.getElementById("root"))
+// import Myfun from "./useEffect_hooks"
+// ReactDOM.render(<Myfun />,document.getElementById("root"))
+
+// Custom Hook
+import Mainfun from "./custom_hook2"
+ReactDOM.render(<Mainfun />,document.getElementById("root"))
