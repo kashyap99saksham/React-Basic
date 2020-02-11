@@ -46,5 +46,21 @@ import Student from "./App"
 
 
 // USE OF STATE
-import Myfun from "./state"
-ReactDOM.render(<Myfun roll = "100"/> ,document.getElementById("root"));
+// import Myfun from "./state"
+// ReactDOM.render(<Myfun roll = "100"/> ,document.getElementById("root"));
+
+// USE OF EVENT HANDLER
+// using class component
+// import Myclass from "./event_handler"
+// ReactDOM.render(<Myclass />,document.getElementById("root"));
+// using function component
+// import Myfunction from "./event_handler"
+// ReactDOM.render(<Myfunction name="saksham" />,document.getElementById("root"));
+
+// USE OF SET STATE 
+// import Myclass from "./set_update_state"
+// ReactDOM.render(<Myclass name = "saksham" roll="100"/>,document.getElementById("root"))
+
+// PASSING ARGUMENT TO EVENT HANDLER
+import Myclass from "./passing_argument_event_handler"
+ReactDOM.render(<Myclass />,document.getElementById("root"));
