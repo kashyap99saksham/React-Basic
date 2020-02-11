@@ -70,6 +70,16 @@ import Student from "./App"
 // ReactDOM.render(<Myclass id="100" />,document.getElementById("root"));
 
 // USE OF UNMOUNTING
-import Myclass from "./Unmounting"
-ReactDOM.render(<Myclass />,document.getElementById("root"));       //it print comp mounted success  
-ReactDOM.unmountComponentAtNode(document.getElementById("root"));      //it print comp  unmounted success
+// import Myclass from "./Unmounting"
+// ReactDOM.render(<Myclass />,document.getElementById("root"));       //it print comp mounted success  
+// ReactDOM.unmountComponentAtNode(document.getElementById("root"));      //it print comp  unmounted success
+
+
+// ----------USE OF HOOK FUNCTION
+// useState function
+// import Myfun from "./useState_hooks"
+// ReactDOM.render(<Myfun />,document.getElementById("root"))
+
+// useEffect function
+import Myfun from "./useEffect_hooks"
+ReactDOM.render(<Myfun />,document.getElementById("root"))
