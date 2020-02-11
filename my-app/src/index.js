@@ -28,6 +28,13 @@ import Student from "./App"
 
 
 // USE OF COMPOSING COMPONENT [MAIN FUNCTIONALITY OF REACT]
-import Mainfun from "./composing_comp2"
-ReactDOM.render(<Mainfun /> , document.getElementById("root"))
+// import Mainfun from "./composing_comp2"
+// ReactDOM.render(<Mainfun /> , document.getElementById("root"))
 
+
+// USE OF PROP-TYPES
+import App_prop from "./prop-types"
+ReactDOM.render(
+    <App_prop name = "saksham" rollno = {1000} />,
+    document.getElementById("root")
+    );
