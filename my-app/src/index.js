@@ -85,5 +85,10 @@ import Student from "./App"
 // ReactDOM.render(<Myfun />,document.getElementById("root"))
 
 // Custom Hook
-import Mainfun from "./custom_hook2"
-ReactDOM.render(<Mainfun />,document.getElementById("root"))
+// import Mainfun from "./custom_hook2"
+// ReactDOM.render(<Mainfun />,document.getElementById("root"))
+
+// Use of Conditional Rendering
+// Checking customer is guest or old custumer
+import Customer from "./conditional_rendering"
+ReactDOM.render(<Customer Cust = {true} />,document.getElementById("root"))
