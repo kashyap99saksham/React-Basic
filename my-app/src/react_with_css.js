@@ -72,3 +72,13 @@ import React, { useState } from "react";
 
 
 // 3. CSS MODULE
+// css module let you the same  cSS class name in different files without worrying about name clash
+// Css Module create  a unique classname of format [filename]\_[classname]\_\_[hash code]
+// Syntax -
+// import mystyle from "./App_module.css"
+// < h1 className = {mystyle.txt} > Hello </h1>
+
+
+
+// 4. CSS IN JS 
+// it is not a part of react but provided by third party libraries. like Glamorous etc...
