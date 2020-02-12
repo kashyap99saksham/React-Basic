@@ -7,7 +7,10 @@
 
 var arr = [10,20,30,40,50]
 var newArr = arr.map(value => value+1)          
-var newArr = arr.map(indx => indx+1)
+var newArr = arr.map(indx => indx+1)            //we are returning every element with +1 increament that will save to newarray 
 
 // Basically We are passing a callback function (arrow,annonymus fuction) to map and map call the every element and passing that element to value
 // same in case of index : when map function runs then it call the callback function(arrow fun) with passing index as argument
+
+// WE can use both value and index at same time
+    var newArr = arr.map((val,indx) => val+1)
