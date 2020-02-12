@@ -105,5 +105,16 @@ import Student from "./App"
 
 
 // Uing map method from List.js file
-import Myfun from "./list"
+// import Myfun from "./list"
+// ReactDOM.render(<Myfun />,document.getElementById("root"))
+
+// Use of key in react
+// import Myfun from "./Key"
+// ReactDOM.render(<Myfun /> , document.getElementById("root"))
+
+
+
+// USE OF CSS
+// Inline css
+import Myfun from "./react_with_css"
 ReactDOM.render(<Myfun />,document.getElementById("root"))
