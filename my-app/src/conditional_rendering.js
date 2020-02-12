@@ -52,12 +52,40 @@ export default function Customer(){
     const SetFlageTrue = () => {
         setflag(true)
     }
-    if(!flag)
-    {
-        return <Guest flag = {SetFlageTrue} />
-    }
-    else
-    {
-        return <User flag = {SetFlagFalse} />
-    }
+    // if(!flag)
+    // {
+    //     return <Guest flag = {SetFlageTrue} />
+    // }
+    // else
+    // {
+    //     return <User flag = {SetFlagFalse} />
+    // }
+   
+    // With use of ternary operator
+    // return(
+    // <>
+    //     {flag ? <User flag = {SetFlagFalse} /> :  <Guest flag = {SetFlageTrue} /> }
+    // </>
+    // )
+
+
+    //WE CANNOT USE IF ELSE INSIDE JSX OR INSIDE RETURN FUNCTION... BUT WE CAN USE ANY CONDITIONAL OPERATOR USING IFFIE FUNCTION IF WE WANT TO USE IN RETURN FUNCTION
+    //With use of IFFE function : This funcion have no name and call itself
+    return (<>
+        {               //This braket is for : We are using js inside jsx
+            (           //This bracket is part of iife function
+                ()=>{           //IIfe  function with arrow function
+                    if(!flag)
+                    {
+                        return <Guest flag = {SetFlageTrue} />
+                    }
+                    else
+                    {
+                        return <User flag = {SetFlagFalse} />
+                    }
+                }
+            )()         //Calling itself  with '()'
+        }
+    </>)
+
 }
