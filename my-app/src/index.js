@@ -89,6 +89,16 @@ import Student from "./App"
 // ReactDOM.render(<Mainfun />,document.getElementById("root"))
 
 // Use of Conditional Rendering
+// Use of if else:
 // Checking customer is guest or old custumer
+// import Customer from "./conditional_rendering"
+// ReactDOM.render(<Customer Cust = {true} />,document.getElementById("root"))
+
+// Use of Inline if with && operator
+// Checking customer is Prime or Normal custumer
+// import Customer from "./conditional_rendering"
+// ReactDOM.render(<Customer PrimeMember = {true} />,document.getElementById("root"))
+
+// Now We are making User friendly login and logout page (We will not set true false user will set)
 import Customer from "./conditional_rendering"
-ReactDOM.render(<Customer Cust = {true} />,document.getElementById("root"))
+ReactDOM.render(<Customer />,document.getElementById("root"))

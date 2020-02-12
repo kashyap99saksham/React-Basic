@@ -21,3 +21,43 @@
 
 
 
+
+// Now We are Going to use "Inline if with logical && operator"
+// We are creating A file which is for prime memeber ... if member is prime then then file run else print normal user
+// We are using "Prime_conditional.js" file to do this
+// import React from 'react'
+// import Prime from "./Prime_conditional"
+// export default function Customer(props)
+// {
+//     const check_cust = props.PrimeMember
+//     return(<>
+//         {check_cust && <Prime />}
+//     </>
+//     )
+
+// }
+
+
+// Now We are making user friendly login and logout page
+// We are using 2 file Guest2_conditional.js User2_condtional.js
+
+import React, {useState} from 'react'
+import Guest from "./Guest2_conditional"
+import User from "./User2_conditional"
+export default function Customer(){
+    const [flag, setflag] = useState(false)         //We cannot use simple variable like var flag or let flag it is not working i dont 9 y
+    const SetFlagFalse = () => {
+        setflag(false)
+    }
+    const SetFlageTrue = () => {
+        setflag(true)
+    }
+    if(!flag)
+    {
+        return <Guest flag = {SetFlageTrue} />
+    }
+    else
+    {
+        return <User flag = {SetFlagFalse} />
+    }
+}
