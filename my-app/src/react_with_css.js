@@ -59,3 +59,16 @@ import React, { useState } from "react";
 
 // --------------------------------------
 // 2. External CSS
+// All Css file merge into 1 css file 
+// so we cannot use same class name for different work
+// import "./external.css"
+// export default function Myfun()
+// {
+//     return <h1 className = "text text2"> Saksham </h1>            //We can use two class name together
+//     // return <h1 className = "text"> Saksham </h1>            //Focus on syntax 'className' not 'class'
+// }
+
+
+
+
+// 3. CSS MODULE

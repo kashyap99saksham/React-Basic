@@ -116,5 +116,10 @@ import Student from "./App"
 
 // USE OF CSS
 // Inline css
+// import Myfun from "./react_with_css"
+// ReactDOM.render(<Myfun />,document.getElementById("root"))
+
+
+// Use of External css
 import Myfun from "./react_with_css"
 ReactDOM.render(<Myfun />,document.getElementById("root"))
