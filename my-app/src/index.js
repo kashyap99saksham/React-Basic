@@ -103,3 +103,7 @@ import Student from "./App"
 // import Customer from "./conditional_rendering"
 // ReactDOM.render(<Customer />,document.getElementById("root"))
 
+
+// Uing map method from List.js file
+import Myfun from "./list"
+ReactDOM.render(<Myfun />,document.getElementById("root"))
