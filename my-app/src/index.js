@@ -100,5 +100,6 @@ import Student from "./App"
 // ReactDOM.render(<Customer PrimeMember = {true} />,document.getElementById("root"))
 
 // Now We are making User friendly login and logout page (We will not set true false user will set)
-import Customer from "./conditional_rendering"
-ReactDOM.render(<Customer />,document.getElementById("root"))
+// import Customer from "./conditional_rendering"
+// ReactDOM.render(<Customer />,document.getElementById("root"))
+
