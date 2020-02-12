@@ -1,0 +1,3 @@
+The difference between the two is that React will re-render your component when state changes 
+If you update the class variable, React will be unaware of it and won't re-render your component.
+Which means you can change your variable inside your code but the change in variable will not appear on screen coz react doesnt re-render your variable 
