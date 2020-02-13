@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import el from "./App"
-import App from "./App"
-import Student from "./App"
+// import el from "./App"
+//  import App from "./App"
+// import Student from "./App"
+import Myform from "./form"
 
 // USING JSX
 // let myele = <h1> Hello </h1>   
@@ -121,5 +122,28 @@ import Student from "./App"
 
 
 // Use of External css
-import Myfun from "./react_with_css"
-ReactDOM.render(<Myfun />,document.getElementById("root"))
+// import Myfun from "./react_with_css"
+// ReactDOM.render(<Myfun />,document.getElementById("root"))
+
+
+
+// Images in react JS
+// Image is inside public folder :: public folder is not a part of webpack
+{/* <img src="%PUBLIC_URL%/mypic.jpeg">     //this code is for index.html */}
+// Now when we are using image (located inside public)  from src js file 
+// import Myfun from "./useing_image"
+// ReactDOM.render(<Myfun />,document.getElementById("root"))
+
+
+// Image is inside src function ::
+// import Myfun from "./useing_image"
+// ReactDOM.render(<Myfun />,document.getElementById("root"))
+
+
+// USING BOOTSTRAP IN REACT
+// import MyFun from "./bootstrap"
+// ReactDOM.render(<MyFun />,document.getElementById("root"))
+
+
+//USING FORM IN REACT JS 
+ReactDOM.render(<Myform />,document.getElementById("root"))
