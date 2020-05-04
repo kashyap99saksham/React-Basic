@@ -11,7 +11,7 @@
 // }
 
 
-// Some Crazy thing with array elements
+// // Some Crazy thing with array elements
 import React, {useState} from 'react'
 
 export default function Myfun()
@@ -20,7 +20,7 @@ export default function Myfun()
         [
             {id:10, name:"saksham",password:"vivnwovdvwevew2v323"},             //array elements are objects
             {id:20, name:"aditi",password:"vicewcew223vnwovd23"},
-            {id:30, name:"kashyap",password:"vivnwovvvev2f3d23"},
+            {id:30, name:"kashyap",password:"vivnwovvvev2f3d23"}
         ])
 
     return  name.map(user => {
@@ -31,3 +31,37 @@ export default function Myfun()
         )
     })
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

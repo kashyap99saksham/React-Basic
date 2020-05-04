@@ -3,7 +3,7 @@ export default function PrimeMember()
 {
     return (
         <>
-            <h1>Prime Member</h1>
+            <h1>Welcom to amazon Prime Member</h1>
         </>
     )
 }

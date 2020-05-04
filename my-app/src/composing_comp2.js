@@ -1,3 +1,4 @@
+// parent Of Composing_component.js Component
 import React from "react"
 import Fun from "./composing_component"
 const Mainfun = () => {
@@ -7,6 +8,6 @@ const Mainfun = () => {
             <Fun name = "kashyap"/>
             <Fun name = "unknown name"/>
         </div>
-        )
+    )
 }
 export default Mainfun;

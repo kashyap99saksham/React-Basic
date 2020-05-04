@@ -4,3 +4,5 @@ There are four phases of component
 2. Updating
 3. Error Handling
 4. UnMounting
+
+// SE PhasesOfComponentPic.png

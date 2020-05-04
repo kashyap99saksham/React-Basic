@@ -2,7 +2,7 @@
 // It is a process to create an element and insert it in a DOM tree
 // there are 4 methods that lies in mounting phase
 // 1.constuctor
-// 2.static DerivedStateFromProps()
+// 2.static getDerivedStateFromProps()
 // 3.render()
 // 4.componentDidMount()
 
@@ -10,7 +10,7 @@
 //1). CONSTRUCTOR
 // Constructor are used only for 2 purpose
     //-Initialize state
-    //-Binding Event Handler
+    //-Binding Event Handler        (Not Implemented Yet)
 
     
 // initialize state using constructor

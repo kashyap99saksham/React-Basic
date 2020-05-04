@@ -1,5 +1,6 @@
 // Each child in a list should have a unique "key" prop.
-// i dont know whats d use
+// i dont know whats d use 
+// [Coz one attribute should have 1 unique identity || So that it can be identify]
 
 import React, {useState} from 'react'
 
@@ -15,7 +16,7 @@ export default function Myfun()
     return  name.map(user => {
         return (
             <>
-            <h1 key = {user.id} > Id: {user.id} , Name : {user.name} , Password: {user.password} </h1>
+            <h1 key = {user.id}> Id: {user.id} , Name : {user.name} , Password: {user.password} </h1>
             </>
         )
     })

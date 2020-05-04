@@ -1,22 +1,25 @@
 import React, {Component} from "react"
 
-// Exporting element to index.js
+// Creating element In Two Ways || JSX / React 
 // let el = <h1>I m in App.js File and importing into index.js</h1>
 // let el = React.createElement("h1",null,"I m in App.js File and importing into index.js");
+// export default el;      //Exporting element to index.js
 
-// export default el;
 
-// Exporting component to index.js     [FIRST LETTER OF COMPONENT NAME SHOULD BE BIG]
+
+// CREATING COMPONENT IN BOTH WAYS || USING CLASS / FUNCTION
+// [FIRST LETTER OF COMPONENT NAME SHOULD BE CAPITAL]
 // class App extends Component{   
 //     render() {
 //         return <h1>I m ele. inside the compont in app.js</h1>        //use jsx bro
 //         // return React.createElement("h1",null,"I m ele. inside the compont in app.js");  
 //     }
 // }
-// export default App;
+// export default App;     //Exporting Compoent to index.js 
+
 
 // Render Method can return single element only
-// To return multiple elements then use REACT FRAGMENT
+// To return multiple elements then use REACT FRAGMENT OR <> </>
 // class App extends Component{   
 //         render() {
 //             return <>
@@ -27,25 +30,28 @@ import React, {Component} from "react"
 //     }
 // export default App;
     
-// Use of Props in class component
+// Use of Props in class component || Props in class can be used using this.props.name 
 // class App extends Component{   
 //         render() {
 //         return  <h1>I m ele. inside the compont in app.js and use props value : {this.props.name}</h1>;        
 //         }
 //     }
 // export default App;
-    
-
 
 
 /*--------------- FUNTION COMPONENT-------------*/
 // function student()
 // {
-//     return <h1> I m text inside the function component</h1>
+//     return(
+//         <>
+//             <h1> I m text inside the function component</h1>
+//             <h2>I m another element Inside function</h2>
+//         </>
+//         )
 // }
 // export default student;
 
-// use new of of function which is arrow function
+// use new Way of function which is arrow function
 // const Student = () => {
 //     return <h1> I m text inside the arrow function component</h1>
 // }

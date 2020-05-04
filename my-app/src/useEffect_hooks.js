@@ -12,16 +12,16 @@ import React , { useState , useEffect } from "react"
 //     const Increamentfun = () => {
 //         setname1(name1+1)
 //     }
-// 
+
 //     const Decreamentfun = () => {
 //         setname2(name2-1)
 //     }
 
-// It will call every update of state
+// // It will call every update of state
 //     useEffect(()=>{                                                     //This function take function as an arg.
 //         console.log("Use Effect caling")
 //     })   
-// 
+
 //     return(
 //         <>
 //             <h1>Increament Count : {name1}</h1>

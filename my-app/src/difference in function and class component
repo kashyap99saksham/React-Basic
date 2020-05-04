@@ -1,2 +1,3 @@
+IMPORTANT QUESTION :
 Use function component : if u are writing a presentational component which doesnt have its own state or need to access lifecycle hool. You cannnot use setState() in your component. Function component are plain function in javascript.
 Use Class component : If you need State or need to access lifecycle hook . because lifecycle hooks are coming in React.component which extends from class component.

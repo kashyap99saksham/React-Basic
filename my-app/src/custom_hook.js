@@ -2,7 +2,7 @@
 // Custom_hook2.js is present to get the benefits of custom hook   
 import React from 'react' 
 import {useState} from "react"
-export default function Myfun()
+export default function useCustomCounter()
 {
     const [count, setcount] = useState(0)
     const IncreamentCount = () =>{   

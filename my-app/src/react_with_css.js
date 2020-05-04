@@ -75,7 +75,7 @@ import React, { useState } from "react";
 // css module let you the same  cSS class name in different files without worrying about name clash
 // Css Module create  a unique classname of format [filename]\_[classname]\_\_[hash code]
 // Syntax -
-// import mystyle from "./App_module.css"
+// import mystyle from "./App.module.css"
 // < h1 className = {mystyle.txt} > Hello </h1>
 
 

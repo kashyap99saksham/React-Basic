@@ -1,4 +1,4 @@
-// Updating is the process of changing state or props of component and update changes to nodes already in the DOM
+// Updating is the process of changing (state or props) of component and update changes to nodes already in the DOM
 // Methods which are used in Updating
 // 1.static getDerivedStatefromProps()
 // 2.shouldComponentUpdate()

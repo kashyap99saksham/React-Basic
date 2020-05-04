@@ -8,7 +8,7 @@ export default class MyClass extends Component{
     componentDidMount(){
         console.log("Component Mounted successfully")
     }
-    componentWillUnmount()
+    componentWillUnmount()          //Method execute just before unmounted
     {
         console.log("Component Unmounted Succesfully")
     }
@@ -17,3 +17,5 @@ export default class MyClass extends Component{
         return <h1>I m plain text</h1>
     }
 }
+
+// unmountComponentAtNode(document.getElementById("root"))      //function To unmount(remove from dom) 

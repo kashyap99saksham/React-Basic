@@ -10,7 +10,7 @@
 // import React, { Component } from 'react'
 // class Myfun extends Component{
 //     state = {
-//         name: "saksham"
+//         name: "saksham"              //We can make anything inside stare : variable,arrray etc
 //     }
 //     render()
 //     {
@@ -18,12 +18,18 @@
 //     }
 // }
 // export default Myfun
-// Now main use of state is : we can not modify the props data.. so state is used to modify how???
+
+
+// 2. with constructor ||i think so.... Not so much usefull 
 // import React, { Component } from 'react'
 // class Myfun extends Component{
-//     state = {
-//         name: "saksham",
-//         roll: this.props.roll
+//     constructor(props)
+//     {
+//         super(props);                   //Most-First line inside constructor should be super(props) || parent class
+//         this.state = {
+//             name: "saksham",
+//             roll: this.props.roll
+//         }
 //     }
 //     render()
 //     {
@@ -37,15 +43,13 @@
 // export default Myfun
 
 
-// 1. with constructor ||i think so.... Not so much usefull 
+
+// Now main use of state is : we can not modify the props data.. so state is used to modify how???
 import React, { Component } from 'react'
 class Myfun extends Component{
-    constructor(props){
-            super(props);
-            this.state = {
-                name: "saksham",
-                roll: this.props.roll
-        }
+    state = {
+        name: "saksham",
+        roll: this.props.roll
     }
     render()
     {
@@ -57,3 +61,5 @@ class Myfun extends Component{
     }
 }
 export default Myfun
+
+
